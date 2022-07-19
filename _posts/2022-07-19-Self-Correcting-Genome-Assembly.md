@@ -32,5 +32,5 @@ https://github.com/aidenlab/3d-dna
 
 http://catchenlab.life.illinois.edu/chromonomer/
 
-(Use the juicer/3d-dna software to assemble your scaffolds.  Then use the chomonomer software to build the chromosomes out of the scaffolds.)
+(Use the juicer/3d-dna software to assemble your scaffolds.  Use the script in this repository to generate an AGP file.  Then use the chomonomer software to build the chromosomes out of the scaffolds.)
 
