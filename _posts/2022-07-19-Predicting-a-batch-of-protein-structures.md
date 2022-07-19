@@ -3,7 +3,7 @@
 
 We recently installed RoseTTAFold on our server. What a powerful tool!  I want to share with you a routine to predict a protein structure for every protein sequence in a batch.  
 
-```shell
+```console
 # follow the directions to install RoseTTAFold: https://github.com/RosettaCommons/RoseTTAFold
 
 # in the RoseTTAFold installation directory, create a subdirectory for protein structure predictions and enter that subdirectory
