@@ -2,11 +2,11 @@
 
 The following flowchart describes the genome assembly process.
 
-![alt text](../_includes/assembly-flowchart.png?raw=true)
+![alt text](https://www.melbournebioinformatics.org.au/tutorials/tutorials/assembly/media/assembly-flowchart.png?raw=true)
 
 In particular, the “Quality evaluation” step should definitely include building a k-mer frequency histogram.  Why?  It tells you so much about the data and the organism in one concise image.  It shows read coverage, heterozygosity levels, the amount of genome duplication, the error rate of your reads, the estimated size of your genome, etc.  It lets you know what you are working with and what you are up against.  This step should never be skipped.
 
-![alt text](../_includes/genomescope.png?raw=true)
+![alt text](https://ucdavis-bioinformatics-training.github.io/2020-Genome_Assembly_Workshop/kmers/figures/genomescope.png?raw=true)
 
 I recommned using Genomescope for your k-mer frequency histogram.
 
