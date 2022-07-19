@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Sharing some of my experiences at the intersection of Bioinformatics, Machine Learning, and Automation.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+I hope that you can find something useful or learn something new!
