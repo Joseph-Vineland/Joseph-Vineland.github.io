@@ -32,5 +32,5 @@ Links to external software:
 
 [http://catchenlab.life.illinois.edu/chromonomer/](http://catchenlab.life.illinois.edu/chromonomer/)
 
-(Use the juicer/3d-dna software to assemble your scaffolds.  Use the script in this repository to generate an AGP file.  Then use the chomonomer software to build the chromosomes out of the scaffolds.)
+(Use the juicer/3d-dna software to assemble your scaffolds.  Use the script `mkAgpFileFromHiC.pl` to generate an AGP file.  Then use the chomonomer software to build the chromosomes out of the scaffolds.)
 
