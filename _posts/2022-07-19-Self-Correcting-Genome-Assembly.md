@@ -16,7 +16,7 @@ However, I have found a solution for this, provided you have Hi-C data and a gen
 The juicer/3d-dna pipeline takes contigs and assembles scaffolds with the help of Hi-C data. The Chromonomer software take scaffolds and assembles chromosomes with the help of genetic linkage maps.
 Why is this a good strategy for genome assembly? These software tools will automatically correct assembly errors made during previous steps in a logical fashion. They prevent you from having to “double back” and repeat previous steps after trying to fix the assembly errors yourself. It saves loads of time, since the software edits your inputs for you. If your data is good, you will get a high quality, chromosome-level genome assembly with minimal effort.
 In order to carry out this procedure, you need to create AGP file.
-Here is a [script](https://github.com/Joseph-Vineland/AGPfromHiC) I wrote to render an AGP file from the outputs of the 3d-dna software: https://github.com/Joseph-Vineland/AGPfromHiC
+Here is a script I wrote to render an AGP file from the outputs of the 3d-dna software: [https://github.com/Joseph-Vineland/AGPfromHiC](https://github.com/Joseph-Vineland/AGPfromHiC)
 
 This script generates an AGP file from the output of the juicer/3d-dna pipeline. The resulting AGP file is input to Chromonomer in order to construct a chromosome-level genome assembly.
 
