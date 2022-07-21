@@ -26,11 +26,11 @@ I hope it can help you on your genome assembly journey!
 
 Links to external software:
 
-https://github.com/aidenlab/juicer
+[https://github.com/aidenlab/juicer](https://github.com/aidenlab/juicer)
 
-https://github.com/aidenlab/3d-dna
+[https://github.com/aidenlab/3d-dna](https://github.com/aidenlab/3d-dna)
 
-http://catchenlab.life.illinois.edu/chromonomer/
+[http://catchenlab.life.illinois.edu/chromonomer/](http://catchenlab.life.illinois.edu/chromonomer/)
 
 (Use the juicer/3d-dna software to assemble your scaffolds.  Use the script in this repository to generate an AGP file.  Then use the chomonomer software to build the chromosomes out of the scaffolds.)
 
