@@ -75,6 +75,8 @@ In conclusion, the results suggest biological seqeucne processing protein struct
 
 If you would like to try out ELECTRA for protein sequences, see the GitHub:  [https://github.com/Joseph-Vineland/ProteinELECTRA](https://github.com/Joseph-Vineland/ProteinELECTRA)
 
+Thank you to Jenny Crick for the writing instructions, advice, and encouragement.
+
 
 
 
