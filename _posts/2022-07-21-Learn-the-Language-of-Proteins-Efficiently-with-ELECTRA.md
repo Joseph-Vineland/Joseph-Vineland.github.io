@@ -7,16 +7,16 @@ The aim of Natural Language Processing (NLP) is to give computers the ability to
 
 [https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
-[https://jalammar.github.io/illustrated-transformer/](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+[https://jalammar.github.io/illustrated-transformer/](https://jalammar.github.io/illustrated-transformer/)
 
-[https://jalammar.github.io/illustrated-bert/](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+[https://jalammar.github.io/illustrated-bert/](https://jalammar.github.io/illustrated-bert/)
 
 Details of the algorithm can be understood by referring to the original paper.  
 
 [https://arxiv.org/pdf/1810.04805.pdf](https://arxiv.org/pdf/1810.04805.pdf)
 
 In summary, there are two steps to deploying BERT, pre-training and fine-tuning.
-1.  **Pre-training**: Using a large corpus of unlabeled text, such as all of Wikipedia or 50 000 books, 15% of the words are randomly masked and the model is trained to predict the masked words based on the unmasked words nearby.  For instance, “The city of New York is the [         ]            States of America.”  From experience, a human reader knows that the missing word is “United.”  Likewise, the BERT model learns to predict the missing word from experience.  In this way, the BERT model learns to grasp patterns and rules within the language, and it also learns a great amount of general knowledge about the world.  The process is repeated iteratively, with different words being masked each time.  This is called “self-supervised” learning, since the data is unlabeled text.
+1.  **Pre-training**: Using a large corpus of unlabeled text, such as all of Wikipedia or 50 000 books, 15% of the words are randomly masked and the model is trained to predict the masked words based on the unmasked words nearby.  For instance, “The city of New York is in the [         ]            States of America.”  From experience, a human reader knows that the missing word is “United.”  Likewise, the BERT model learns to predict the missing word from experience.  In this way, the BERT model learns to grasp patterns and rules within the language, and it also learns a great amount of general knowledge about the world.  The process is repeated iteratively, with different words being masked each time.  This is called “self-supervised” learning, since the data is unlabeled text.
 2.  **Fine-tuning**: The pre-trained BERT model from step 1 is further trained with labeled data to perform a specific task.  For instance, using a set of emails labeled as “spam” or “not spam”, the pre-trained model is trained further or “fine-tuned” to be able to read emails and classify them as “spam” or “not spam.”  This is called “supervised” learning, since the data is labeled text examples.
 Although in theory the pre-training step is unnecessary for classification/regression tasks, it has been shown that pre-training makes a large positive impact in the predictive performance of the model.  In fact, world records have been set for machine learning benchmarks using only a few dozen labeled examples, due to the power of pre-training models.  The knowledge gained from pre-training on a massive unlabelled dataset is successfully “transferred” when learning to perform different classification and regression tasks.  Therein lies the power of BERT.
 
